@@ -13,10 +13,16 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 class GeminiApp:
     def __init__(self):
         self.model = genai.GenerativeModel('gemini-pro-vision')
-        self.input_prompt = """
-        You are an expert in understanding invoices. We will upload an image as an invoice and you will answer any questions based on the uploaded image.
-        """
+        self.input_prompt = self.load_input_prompt()
         self.setup_streamlit()
+
+   def load_input_prompt(self):
+        try:
+            with open('utils/input_prompt.txt', 'r') as file:
+                return file.read()
+        except FileNotFoundError:
+            st.error("The input_prompt.txt file was not found in the utils folder.")
+            return ""   
 
     def setup_streamlit(self):
         st.set_page_config(page_title="MultiLanguage Invoice Extractor")
