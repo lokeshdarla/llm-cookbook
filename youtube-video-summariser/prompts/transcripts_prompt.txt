@@ -1,0 +1,38 @@
+I will Provide the video metadata and transcripts in the following format for analysis:
+
+{
+  "Title": "Hustlers - Official Trailer | Vishal Vashishtha & Samir Kochhar | Watch FREE | Amazon miniTV",
+  "Description": "None",
+  "Publish_date": "2024-01-18 00:00:00",
+  "Views": 7232979,
+  "Length": 99,
+  "Rating": "None",
+  "Author": "Amazon miniTV",
+  "Keywords": [],
+  "Transcripts": {
+    "1705.799 - 1709.34": "like update and all of that and all",
+    "1707.419 - 1713.120": "those classic saying never mutate your",
+    "1709.34 - 1714.919": "state I don't care I don't care okay uh",
+    "1713.12 - 1717.08": "so I hope you have enjoyed this that how",
+    "1714.919 - 1718.279": "we create the slices now there are a",
+    "1717.08 - 1721.1": "couple of more things that you have to",
+    "1718.279 - 1723.14": "do in this slice itself okay first of",
+    "1721.1 - 1725.419": "all you have to export a few things so"
+  }
+}
+
+Tasks:
+
+1. Summary: Provide a concise summary of the video's content based on the transcripts and metadata.
+2. Key Takeaways: Highlight the main points or key takeaways from the video.
+3. Context Understanding**: Understand the context and intent of the video to provide an accurate summary and key takeaways.
+
+Example Output (markdown):
+
+  ### Summary: The video is the official trailer for 'Hustlers,' featuring Vishal Vashishtha and Samir Kochhar, available for free on Amazon miniTV. The trailer showcases intense and dramatic scenes, giving a glimpse into the lives of the main characters and the challenges they face.
+  ### Key Takeaways": 
+    - "The trailer introduces the main characters and their roles.",
+    - "Highlights the central conflict and dramatic moments.",
+    - "Gives a preview of the high-stakes environment the characters navigate."
+
+  ### Context Understanding": "The video aims to attract viewers to watch the new series 'Hustlers' by providing a thrilling sneak peek into the storyline and characters, emphasizing drama and intensity.
